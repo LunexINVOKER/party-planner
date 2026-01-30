@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.party-list, .party-details {
+  flex: 1;
+}
+
+#party-ul {
+  list-style: none;
+  padding: 0;
+}
+
+#party-ul li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#party-ul li:hover {
+  background: #f0f0f0;
+}
+#parties-ul {
+  list-style: none;
+  padding: 0;
+}
+
+#parties-ul li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#parties-ul li:hover {
+  background-color: #f0f0f0;
+}
